@@ -1,0 +1,153 @@
+.intro__wrapper {
+    position: relative;
+}
+
+.intro__background img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+.intro__content {
+    position: absolute;
+    top: 100px;
+    right: 120px;
+}
+
+.intro__content h2 {
+    margin-left: 100px;
+    font-family: 'Leckerli One', cursive;
+    font-size: 3.5rem;
+    color: #fff;
+    /* Tạo bóng đổ cho chữ */
+    text-shadow: rgb(0, 128, 255) 0.1em 0.1em 0.2em;
+}
+
+.intro__content h1 {
+    font-family: 'Bangers', cursive; 
+    font-size: 5.5rem;
+    color: #fff;
+    letter-spacing: .4rem;
+    text-shadow: 0 0 0.2em rgb(66, 160, 255), 0 0 0.2em #87F
+    /* text-shadow: rgb(25, 163, 255) 0.1em 0.1em 0.2em; */
+}
+
+.hero__subtitle img {
+    width: 2.3rem;
+    height: 2.3rem;
+}
+
+.hero__content h1 {
+    font-size: 3.2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: var(--heading-color);
+}
+
+.hero__content h1 .highlight {
+    color: var(--secondary-color);
+}
+
+.hero__content p {
+    font-size: 1.1rem;
+    color: var(--text-color);
+    line-height: 2rem;
+}
+
+.hero__img-box img,
+.hero__img-box video {
+    width: 100%;
+    height: 350px;
+    border-radius: 20px;
+    border: 1px solid var(--secondary-color);
+    object-fit: cover;
+}
+
+.hero__content {
+    padding-top: 3.5rem;
+}
+
+.hero__img-box {
+    padding-top: 2rem;
+}
+
+.services__subtitle {
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #0583F2;
+    font-family: var(--subtitle-font-name);
+}
+
+.services__title {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.featured__tour-title {
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+
+.experience__content h2 {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+.experience__content p {
+    font-size: 1.1rem;
+    color: var(--text-color);
+    margin-top: 1rem;
+}
+
+.counter__wrapper {
+    margin-top: 2.5em; 
+}
+
+.counter__box span {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-radius: 10px 5px 10px 5px;
+}
+
+.counter__box h6 {
+    font-size: 1.1rem;
+    margin-top: 0.7rem;
+    color: var(--text-color);
+}
+
+.experience__img img {
+    width: 90%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.gallery__title {
+    font-size: 2.3rem;
+    margin-bottom: 2.5rem;
+    margin-top: 1rem;
+}
+
+.masonry__img {
+    transition: .3s;
+}
+
+.masonry__img:hover {
+    transform: scale(1.1);
+}
+
+.testimonial__title {
+    font-size: 2.3rem;
+    margin-top: 1rem;
+}
+
